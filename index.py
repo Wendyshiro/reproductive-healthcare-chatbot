@@ -48,11 +48,11 @@ class Response(db.Model):
 with app.app_context():
     db.create_all()
 
-TWILIO_ACCOUNT_SID = 'AC359a2083c8b551319a33d6677c4d64d1'
-TWILIO_AUTH_TOKEN = '1512d65eeb2c9ccaf50fd1bdf3beb1cf'
-TWILIO_PHONE_NUMBER = '+14155238886'
+TWILIO_ACCOUNT_SID = 'your_twilio_account_sid'
+TWILIO_AUTH_TOKEN = 'your_twilio authentication token'
+TWILIO_PHONE_NUMBER = 'XXXX-XXX-XXX'
 
-DIALOGFLOW_PROJECT_ID = 'reprohealthbot-ebxb'
+DIALOGFLOW_PROJECT_ID = 'your dialogflow project id'
 
 twilio_client = TwilioClient(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
 
