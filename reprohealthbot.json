@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "reprohealthbot-ebxb",
+  "private_key_id": "8c7df86382fa5a7e680c3e4f0df584bcf924a723",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQD2r2ZcjrFduYSq\nZ+bjgSgq2pCFBIshOqyncHSSueomENNMHbA3DpzOz30n6l7QPTW2I7SXsm0KsPll\ngMzep+H8mgB3eaPRfXOcjF5W6yTCVknQKyAmf2/tvCNiKyH36JOujdXe5wzWgCPS\nk0AV12T7Yz3uENxv+YfiNhOPZ3oRlVD4a4dkJsdx1jJp/iZEwcrQCNJNx2hN3xxa\n1Yv9eUL9FFPczFHh2UsdCObimKh7atJgsZlRryWLHsRH6QmFrTPZH32F2UaeFAZi\nEZJ1DI5NP9KNtBkclx6ryZ4DxCBFxIATgTzpxeHPyjtrL5f5YDYgev9AQlzFsfD0\nPWXQ3/T3AgMBAAECggEANIYQI3D2buBLUQUichpT9RvoXYokHYUisdwN1hfjtQss\nEi7YEED6PkaLfW43ldsSjp93mj0RXo9j6qrL9DSGt4QKyWWK7dXqQdDZXWRfxUke\nGka0Z74GlPXUCtjoOKK6nxXwDa/gWeOavQFBSeU8yRHOY9wPM4BL4GxnKcd8hDV9\nrPadhO+UYjv6ApLqqZvFYB7LNPYW5q9Lj/rMaNjuX98sE8unpAln/Y9iuB11E2+I\ns/waVDqsC/IZNDke2/+UQNsQizSJKW7Kb6iLOhh0Xjz3+leaggTTLDpFOGqy4bjM\n4BueJP3LDFEFIbcfZApHkvBz+fvdFgpkFEWbu9JTEQKBgQD98Z6+PPBKvJL1/9fh\nl+XG269ZfpLCTb8c6zw+9KN1phdWlBQSG1awOvcwrdPlG09gRpl0ZB+0JDxsRxAn\nNer7OIjoCcrF7XZpkGITVW0INnfzn87+fvCAoyes2lLRw+KxyNa026l3EavpGe1h\ncomQ5QpeosvfkYK51n3KTs4UmwKBgQD4rrvcpRU4UU6bJKyvXauQYHDkzGSuR1ct\nkjFYal/jaeSXFEFN1Yjg+9ah7LPKJaVLgsMDWUUGzOKdv7aFPXpfqNs+4vU3FhtI\n+DsX5bE8zWiwFhSRW6d533ANEmbJ99pF5BD4iqUOpMy6i72yq8sYM9geYyAiGXIQ\n3vllsP9w1QKBgFVtliiLWY7a11mYYuiKcAsw1lF2CisBepxg6liHdgHbCRjgIcxh\nlA0fGQ8wOwtk35QUzATiteOlGQqX8XAvbEhtIWll+egR1Xb30naMk2xi3oF/rmPh\nEklEGdHFdH0Kt9V1Kf2Xs+/RaxK03S2eGXc8BfwGKi2gxuh7pr+LOTqnAoGAGUOX\nLklPKJOKCtTk/kPj5B0IGxZwvAvfXW/Wt4bHCxF8+aRDJiclasXq/jRP559/dXZp\nXXO6QYCbHS+W2V5vijxbWb4w71G9n+IoDrt1EBpGIm171XCcSRNcDNfrvWUCtcr/\ntmBPeHdhnSoJMZemYGUT9bJYV16Cahhc+enLaakCgYEAyRlalmum/uQhbJScVK1Z\nJECtiBf3qyGWSLgx5EJrm/ls9dtzfsGCIL7HEiqiLAZpe8LXKxK+EGoT7KRkL22q\nKNWhYUIbDA0QikSub6AV2loi0ffnBofvtAIRgDVjp7JDMSJhhdVRE3pdg6SaETXB\nxrLE13jDU3hXg9cVCAeQPMU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "wendy-reprobot@reprohealthbot-ebxb.iam.gserviceaccount.com",
+  "client_id": "104217999543107434660",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/wendy-reprobot%40reprohealthbot-ebxb.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
