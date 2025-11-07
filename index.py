@@ -58,7 +58,15 @@ twilio_client = TwilioClient(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
 
 
 def detect_intent_texts(project_id, session_id, text, language_code):
-    session_client = dialogflow. SessionsClient.from_service_account_file(r'C:\Users\Administrator.IT\reprohealthbot\reprohealthbot.json')
+    # Get credentials path from environment variable or use local file
+    creds_path = os.getenv('GOOGLE_APPLICATION_CREDENTIALS', 'reprohealthbot.json')
+    if not os.path.exists(creds_path):
+        raise FileNotFoundError(
+            f"Dialogflow credentials not found at {creds_path}. "
+            "Please ensure GOOGLE_APPLICATION_CREDENTIALS points to your service account JSON file."
+        )
+    
+    session_client = dialogflow.SessionsClient.from_service_account_file(creds_path)
     session = session_client.session_path(project_id, session_id)
 
     if text:
