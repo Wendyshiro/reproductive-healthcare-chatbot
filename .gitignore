@@ -1,3 +1,21 @@
-# Default ignored files
-/shelf/
-/workspace.xml
+# Dependency files
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Jupyter / research files
+*.ipynb_checkpoints/
+
+# Test / coverage reports
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Logs and temporary data
+*.tmp
+*.bak
+*.swp
+
+# ngrok session files (if you ever save auth)
+.ngrok2/
