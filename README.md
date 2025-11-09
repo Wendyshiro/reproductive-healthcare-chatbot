@@ -1,56 +1,70 @@
-💬 WhatsApp Chatbot for Adolescent Reproductive Healthcare
+# 💬 WhatsApp Chatbot for Adolescent Reproductive Healthcare
 
-🩺 Overview
-This Python-based chatbot delivers accessible, confidential, and reliable reproductive health information to adolescents via WhatsApp. Built with Flask, Twilio, and Dialogflow, it serves as a digital health assistant focused on creating a safe, supportive space for users to ask questions and receive accurate guidance.
+This Flask-based WhatsApp chatbot provides accessible and confidential reproductive health information for adolescents. It uses **Twilio** for WhatsApp integration and **Dialogflow** for natural language understanding.
 
-🚀 Features
-Conversational AI support for common reproductive health questions
+---
 
-Integration with WhatsApp using the Twilio API
+## 🚀 Features
+- AI-driven Q&A on reproductive health topics  
+- Twilio WhatsApp integration  
+- Dialogflow NLP for contextual understanding  
+- Scalable, lightweight Flask backend  
+- Secure environment variable configuration  
 
-Natural language processing powered by Dialogflow
+---
 
-Scalable and easy to deploy with minimal setup
+## 🧰 Tech Stack
+- **Python** (Flask)
+- **Twilio API**
+- **Dialogflow**
+- **ngrok** (for local tunneling)
+- **dotenv**
 
-🛠️ Technologies Used
-Python – Core language for backend logic
+---
 
-Flask – Lightweight web framework for handling HTTP requests
+## 🧪 Local Setup
 
-Twilio API – Enables WhatsApp messaging integration
+### 1️⃣ Clone the Repository
+```bash
 
-Dialogflow – Powers the natural language understanding (NLU)
-
-🧪 How to Run the Project Locally
-Clone the Repository
-
-bash
-Copy
-Edit
 git clone https://github.com/Wendyshiro/whatsapp-chatbot.git
+
 cd whatsapp-chatbot
-Install Dependencies
 
-bash
-Copy
-Edit
+2 Clone the Repository
+
 pip install -r requirements.txt
-Run the Flask App
 
-bash
-Copy
-Edit
+3. Set up Ennvironment
+
+Create a .env file and in your Twilio and Dialogflow credentials
+
+4. Run the app
+
 python index.py
-✅ Make sure you’ve configured your Twilio and Dialogflow credentials before running the app.
-📱 You’ll also need a Twilio Sandbox for WhatsApp set up to test the bot in a real chat environment.
 
-🌍 Potential Use Cases
-Health education in underserved or rural areas
+Your Flask app should be live on:
 
-Anonymous and secure Q&A for teens and young adults
+http://localhost:5000
 
-Integration into digital clinics or telemedicine platforms
+5. Expose with ngrok
 
-🤝 Contributions
-Pull requests are welcome! If you have suggestions for improvement or additional features, feel free to fork and contribute.
+ngrok http 5000
+
+Cpy the HTTPS URL and paste it in your Twilio Sandbox Configuration and 
+
+also in The Dialogflow fulfilment webhook
+
+🩺 Potential Use Cases
+
+Health education for teens and young adults
+
+Anonymous and safe Q&A
+
+Integration with digital clinics or telemedicine systems
+
+🧠 Author
+
+Wendy Wanjiru
+AI & Software Developer | Focused on Human-Centered Digital Health
 
